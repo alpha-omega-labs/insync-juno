@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import logo from '../../assets/OmniFlix.svg';
 import './index.css';
 import DisconnectButton from './DisconnectButton';
 import Tabs from './Tabs';
@@ -163,7 +162,7 @@ class NavBar extends Component {
         return (
             <div className={ClassNames('nav_bar padding', localStorage.getItem('of_co_address') || this.props.address
                 ? '' : 'disconnected_nav')}>
-                <img alt="OmniFlix" src={logo}/>
+                <h1>genesisL1</h1>
                 <ExpansionButton/>
                 <div className={ClassNames('right_content', this.props.show ? 'show' : '')}>
                     <div className="back_button" onClick={this.props.handleClose}>
