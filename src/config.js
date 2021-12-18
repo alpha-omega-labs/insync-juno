@@ -1,6 +1,6 @@
 export const config = {
-    RPC_URL: 'http://136.243.131.123:26657',
-    REST_URL: 'http://136.243.131.123:1317',
+    RPC_URL: 'https://26657.genesisl1.org',
+    REST_URL: 'https://1317.genesisl1.org',
     EXPLORER_URL: 'https://blockchain.genesisl1.org',
     NETWORK_NAME: 'genesisL1',
     NETWORK_TYPE: 'mainnet',
@@ -12,10 +12,10 @@ export const config = {
     PREFIX: 'genesis',
     COIN_TYPE: 118,
     COINGECKO_ID: 'genesisl1',
-    DEFAULT_GAS: 2000000000,
-    GAS_PRICE_STEP_LOW: 2000000000,
-    GAS_PRICE_STEP_AVERAGE: 2000000000,
-    GAS_PRICE_STEP_HIGH: 2000000000,
+    DEFAULT_GAS: 1000000000,
+    GAS_PRICE_STEP_LOW: 1000000000,
+    GAS_PRICE_STEP_AVERAGE: 1000000000,
+    GAS_PRICE_STEP_HIGH: 1000000000,
     FEATURES: ['stargate'],
 };
 
